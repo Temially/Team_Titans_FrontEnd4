@@ -3,7 +3,7 @@ body{
 }
 
 #first{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.267)),url(images/Home.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.267)),url('images/Home.png');
     background-size: cover;
     background-position: center;
     height: 95vh;
@@ -58,8 +58,8 @@ ul li:hover{
 }
 
 .sec{
-    color:   rgb(141, 7, 7);
-    /*rgb(141, 7, 7)*/
+    color: rgb(141, 7, 7);
+    /**/
     padding-top: 10px;
     font-size: 50px;
     font-family: Aladin;
@@ -104,7 +104,7 @@ ul li:hover{
 }
 
 #hip{
-    color: #FFFFFF;
+    color: rgb(141, 7, 7);
     font-family: Adobe Arabic;
     font-size: 29px;
    
@@ -116,7 +116,17 @@ ul li:hover{
     height: 100%;
 }
 
+#btn{
+    border-radius: 6px;
+    font-weight: 430;
+}
 
+#btn:hover{
+    background-color: black;
+    border: solid 1px red;
+    color: white;
+    font-weight: 430;
+}
 
 #too {
     color: white;
@@ -138,6 +148,19 @@ h5{
     color: white;
 }
 
+#fix{
+    font-size: 12px;   
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;  
+}
+
 #loc{
     margin-top: 40px;
     color: white;
@@ -154,3 +177,28 @@ h5{
       margin: 8px;
       
   }
+.copyright{
+    color: white;
+}
+
+@media(max-width: 1000px)
+{
+    #hip{
+        color: #FFFFFF;
+        font-family: Adobe Arabic;
+        font-size: 21px;
+       
+    }
+    
+}
+
+@media(max-width: 767px)
+{
+    #hip{
+        color: #FFFFFF;
+        font-family: Adobe Arabic;
+        font-size: 24px;
+       
+    }
+    
+}

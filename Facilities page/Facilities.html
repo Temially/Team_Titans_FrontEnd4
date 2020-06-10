@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>LM Continental</title>
+    <title>Facilities Page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,10 +12,24 @@
     <link rel="stylesheet" href="lm.css">
     <!--icons-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/5435703326.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
   </head>
   <body>
       
-    <div class="container" id="first">
+    <div class="container-fluid" id="first">
         <div>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="images/Logo (1).png" alt="" id="image"></a>
@@ -39,30 +53,34 @@
                       <li class="nav-item">
                         <a class="nav-link" href="#" id="col">Contact Us</a>
                       </li>
-                      <button type="button" class="btn btn-danger">BOOK NOW</button>
+                      <button type="button" class="btn btn-danger" id="btn">BOOK NOW</button>
                   </ul>
                 </div>
               </nav>
         </div>
-        <div class="col-lg-6 column">
+
+        <div class="flex animate__animated animate__slideInDown">
+          <div class="col-lg-6 column">
             IMPROVE YOUR STAY WITH
         </div>
         <div class="col-lg-3 sec">
             FACILITIES
         </div>
+        </div>
+      
     </div>
 
     <!--second div-->
-    <div class="container outdoor">
+    <div class="container-fluid outdoor">
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 text-center wow fadeInLeft"  id="imagese">
+                    <div class="col-md-6 text-center wow fadeInLeft"  id="imagese" data-aos="fade-right">
                    <img src="images/Restaurant.png" class="img-fluid" alt="" id="imag">
                     </div>
    
-                    <div class="col-md-6 text-justify wow fadeInRight" id="to">
-                   <h6 id="hip">FANCY OUTDOOR RESTURANT</h6>
+                    <div class="col-md-6 text-justify wow fadeInRight" id="to" data-aos="fade-left">
+                   <h6 id="hip">FANCY OUTDOOR RESTAURANT</h6>
                    <p id="p1">We are here to provide you with the best of services a Hotel has to offer to ensure and maximize safety , comfort, peasure and make you feel like Royalty. </p>
                        </div>
    
@@ -76,15 +94,15 @@
         </section>
     </div>
   
-    <div class="container" id="second">
+    <div class="container-fluid" id="second">
         <div class="row">
-            <div class="col-md-6 text-center wow fadeInLeft"  id="imagers">
+            <div class="col-md-6 text-center wow fadeInLeft"  id="imagers" data-aos="fade-right">
                 <h6 id="hip">WELL EQUIPPED GYM</h6>
                 <p id="p2">We are here to provide you with the best of services a Hotel has to offer to ensure and maximize safety , comfort, peasure and make you feel like Royalty. </p>
            
             </div>
 
-            <div class="col-md-6 text-justify wow fadeInRight" id="too">
+            <div class="col-md-6 text-justify wow fadeInRight" id="too" data-aos="fade-left">
                 <img src="images/Home.png" class="img-fluid" alt="" id="imag">
                </div>
 
@@ -93,15 +111,15 @@
         </div>
        </div>
 
-       <div class="container outdoor">
+       <div class="container-fluid outdoor">
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 text-center wow fadeInLeft"  id="imagese">
+                    <div class="col-md-6 text-center wow fadeInLeft"  id="imagese" data-aos="fade-right">
                    <img src="images/Art.png" class="img-fluid" alt="" id="imag">
                     </div>
    
-                    <div class="col-md-6 text-justify wow fadeInRight" id="to">
+                    <div class="col-md-6 text-justify wow fadeInRight" id="to" data-aos="fade-left">
                    <h6 id="hip">ART GALLERY</h6>
                    <p id="p1">We are here to provide you with the best of services a Hotel has to offer to ensure and maximize safety , comfort, peasure and make you feel like Royalty. </p>
                        </div>
@@ -113,15 +131,15 @@
         </section>
     </div>
 
-    <div class="container" id="second">
+    <div class="container-fluid" id="second">
         <div class="row">
-            <div class="col-md-6 text-center wow fadeInLeft"  id="imagers">
+            <div class="col-md-6 text-center wow fadeInLeft"  id="imagers" data-aos="fade-right">
                 <h6 id="hip">BAR</h6>
                 <p id="p2">We are here to provide you with the best of services a Hotel has to offer to ensure and maximize safety , comfort, peasure and make you feel like Royalty. </p>
            
             </div>
 
-            <div class="col-md-6 text-justify wow fadeInRight" id="too">
+            <div class="col-md-6 text-justify wow fadeInRight" id="too"  data-aos="fade-left">
                 <img src="images/Dining.png" class="img-fluid" alt="" id="imag">
                </div>
 
@@ -130,15 +148,15 @@
         </div>
        </div>
 
-       <div class="container outdoor">
+       <div class="container-fluid outdoor">
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 text-center wow fadeInLeft"  id="imagese">
+                    <div class="col-md-6 text-center wow fadeInLeft"  id="imagese"  data-aos="fade-right">
                    <img src="images/Bar.png" class="img-fluid" alt="" id="imag">
                     </div>
    
-                    <div class="col-md-6 text-justify wow fadeInRight" id="to">
+                    <div class="col-md-6 text-justify wow fadeInRight" id="to"  data-aos="fade-left">
                    <h6 id="hip">CASINO</h6>
                    <p id="p1">We are here to provide you with the best of services a Hotel has to offer to ensure and maximize safety , comfort, peasure and make you feel like Royalty. </p>
                        </div>
@@ -150,15 +168,15 @@
         </section>
     </div>
 
-    <div class="container" id="second">
+    <div class="container-fluid" id="second">
       <div class="row">
-          <div class="col-md-6 text-center wow fadeInLeft"  id="imagers">
+          <div class="col-md-6 text-center wow fadeInLeft"  id="imagers"  data-aos="fade-right">
               <h6 id="hip">LUXURY POOL</h6>
               <p id="p2">We are here to provide you with the best of services a Hotel has to offer to ensure and maximize safety , comfort, peasure and make you feel like Royalty. </p>
          
           </div>
 
-          <div class="col-md-6 text-justify wow fadeInRight" id="too">
+          <div class="col-md-6 text-justify wow fadeInRight" id="too"  data-aos="fade-left">
               <img src="images/Pool.png" class="img-fluid" alt="" id="imag">
              </div>
 
@@ -167,7 +185,7 @@
       </div>
      </div>
 
-     <div class="container footer text-center">
+     <div class="container-fluid footer text-center">
       <div class="row">
    
     
@@ -176,7 +194,7 @@
         <div class="col-lg-4">
           <ul class="navbar-nav mL-auto mt-2 mt-lg-0 ml-auto">
            
-            <h5>ABOUT LM CONTINENTAL</h5>
+            <h5 id="fix">ABOUT LM CONTINENTAL</h5>
             <li class="nav-item">
               <a class="nav-link" href="#" id="loc">FACILITIES</a>
             </li>
@@ -215,7 +233,7 @@
         <div class="col-lg-4">
           <ul class="navbar-nav mL-auto mt-2 mt-lg-0 ml-auto">
            
-            <h5>FOLLOW US FOR OFFERS</h5>
+            <h5 id="fix">FOLLOW US FOR OFFERS</h5>
            <div class="socials">
            <i class="fa fa-twitter" aria-hidden="true"></i>
            <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -227,8 +245,18 @@
 
       
       </div>
+      
+        
      </div>
+     <footer>
+      <p class="copyright">&copy;Copyright LM CONTINENTAL 2020</p>
+     </footer>
        
+     
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- 
          
     -->
